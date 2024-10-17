@@ -3,7 +3,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const ejs = require('ejs');
 const app = express();
-const port = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Set view engine to EJS for rendering HTML templates
 app.set('view engine', 'ejs');
@@ -57,6 +57,6 @@ app.post('/scan', async (req, res) => {
 });
 
 // Start the server on the specified port
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${port}`);
 });
