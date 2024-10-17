@@ -58,5 +58,5 @@ app.post('/scan', async (req, res) => {
 
 // Start the server on the specified port
 app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${port}`);
+  console.log(`Server running on http://localhost:${PORT}`);
 });
