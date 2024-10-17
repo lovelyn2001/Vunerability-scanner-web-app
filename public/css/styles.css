@@ -1,0 +1,56 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #8e44ad, #f39c12);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+.container {
+  width: 90%; /* Width adjusted to be responsive */
+  max-width: 600px; /* Maximum width for larger screens */
+  margin: 20px; /* Margin for spacing */
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; /* Rounded corners */
+}
+
+
+h1 {
+  text-align: center;
+}
+
+label, select, input {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #8e44ad;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f39c12;
+}
+
+
+pre {
+  background-color: #000;
+  padding: 10px;
+}
